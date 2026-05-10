@@ -4,7 +4,7 @@ import pandas as pd
 import urllib.parse
 
 # ─── API Key ──────────────────────────────────────────────
-SERPAPI_KEY = "392e7bff178ec41e7ae534a82a44ebc6bc10f66bfa1b054cf84028824fffee2d"
+SERPAPI_KEY = st.secrets["SERPAPI_KEY"]
 
 # ─── Session State Init ───────────────────────────────────
 for key, val in {
